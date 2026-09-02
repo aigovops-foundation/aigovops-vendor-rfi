@@ -11,6 +11,12 @@ on:
     - cron: "25 15 * * *"   # daily, staggered across the estate
   workflow_dispatch:
 
+# The caller has to grant what the reusable workflow asks for (actions: read) or every run is a
+# startup_failure with no job and no log. Same fix as the Library, Omni, Beacon and the camp.
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   red-main:
     uses: aigovops-foundation/aigovops-library-june-ken-bob/.github/workflows/reusable-red-main-watchdog.yml@main
