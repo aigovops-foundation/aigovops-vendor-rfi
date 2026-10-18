@@ -24,10 +24,8 @@ SHELL = """<!DOCTYPE html>
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="https://aigovops-foundation.github.io/aigovops-vendor-rfi/assets/og-vendor-rfi.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Source+Sans+3:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.aigovops-foundation.com/fonts/fonts.css">
+<link rel="stylesheet" href="https://www.aigovops-foundation.com/fonts/fonts.css">
 <link rel="stylesheet" href="../garden.css">
 <style>
 /* aigovops-july-2026 "garden-warm" skin — cream ground, orchard green, signal orange */
