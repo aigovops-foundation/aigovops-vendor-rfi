@@ -4,7 +4,7 @@
  * several entries reflect recent M&A. The OT/IIoT category is honestly NOT AI-model governance —
  * it is the unfilled manufacturing gap. Source: docs/vendor-guide.html + 2025-2026 vendor research. */
 const VENDOR_META = {
-  lastReviewed: "2026-06-19",          // ISO date of the last catalog audit
+  lastReviewed: "2026-11-26",          // ISO date of the last catalog audit
   reviewedBy:   "aigovops-agent-vendor-rfi",
   cadenceDays:  90,                    // re-audit at least quarterly (enforced by .github/workflows/freshness.yml)
   source:       "docs/vendor-guide.html",
